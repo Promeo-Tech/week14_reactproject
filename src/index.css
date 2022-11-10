@@ -1,0 +1,68 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 2rem;
+  background-image: url("./avengers-1667885089999-2506.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius:inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:transform 200ms ease-in;
+
+}
+
+img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card__description {
+  padding: 0 1rem;
+  font-style: italic; 
+  color: darkgrey;
+  height: 10rem;
+  font-size: small;
+
+}
+
+.rating {
+  height: 180px;
+  background-color: black;
+  padding-left: 55px;
+  padding-top: 0;
+}
+
+.form-group {
+background-color: black;
+
+}
+
+#input {
+  height: 50px;
+  font-size: small;
+  color: darkgray;
+}
+
+label {
+  color: aliceblue;
+}
